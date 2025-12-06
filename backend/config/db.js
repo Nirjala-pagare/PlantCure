@@ -7,7 +7,7 @@ dotenv.config();
 const connectDB = async () => {
   try {
     // Use MongoDB Atlas URI from environment or fallback to local
-    const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/plantcure';
+    const mongoURI = process.env.MONGODB_URI ;
     
     const conn = await mongoose.connect(mongoURI);
     console.log(`MongoDB Connected: ${conn.connection.host}`);
