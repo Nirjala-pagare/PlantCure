@@ -14,7 +14,7 @@ const __dirname = path.dirname(__filename);
 // Connect to MongoDB
 const connectDB = async () => {
   try {
-    const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/plantcure';
+    const mongoURI = process.env.MONGODB_URI;
     await mongoose.connect(mongoURI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
