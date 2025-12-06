@@ -48,7 +48,7 @@ export const getAllDiseases = async (req, res) => {
       imageUrl: disease.image
         ? (disease.image.startsWith('data:image') 
             ? disease.image 
-            : `${process.env.BASE_URL || 'http://localhost:5000'}/uploads/diseases/${disease.image}`)
+            : `${process.env.BASE_URL}/uploads/diseases/${disease.image}`)
         : ''
     }));
 
@@ -83,7 +83,7 @@ export const getDiseaseById = async (req, res) => {
       imageUrl: disease.image
         ? (disease.image.startsWith('data:image') 
             ? disease.image 
-            : `${process.env.BASE_URL || 'http://localhost:5000'}/uploads/diseases/${disease.image}`)
+            : `${process.env.BASE_URL }/uploads/diseases/${disease.image}`)
         : ''
     };
 
@@ -136,7 +136,7 @@ export const searchDisease = async (req, res) => {
       imageUrl: disease.image
         ? (disease.image.startsWith('data:image') 
             ? disease.image 
-            : `${process.env.BASE_URL || 'http://localhost:5000'}/uploads/diseases/${disease.image}`)
+            : `${process.env.BASE_URL }/uploads/diseases/${disease.image}`)
         : ''
     }));
 
