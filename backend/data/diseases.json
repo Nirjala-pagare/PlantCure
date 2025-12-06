@@ -1,0 +1,381 @@
+[
+  {
+    "plantName": "Tomato",
+    "diseaseName": "Early Blight",
+    "symptoms": "Brown spots with concentric rings on older leaves, yellowing and dying leaves, dark lesions on stems",
+    "prevention": "Use disease-resistant varieties. Rotate crops annually. Water at the base of plants, avoiding wetting leaves. Apply mulch to prevent soil splash.",
+    "treatment": "Remove infected leaves immediately. Apply fungicides containing chlorothalonil or mancozeb. Ensure proper spacing between plants for air circulation."
+  },
+  {
+    "plantName": "Tomato",
+    "diseaseName": "Late Blight",
+    "symptoms": "Dark, water-soaked lesions on leaves, stems, and fruits. Rapid spread in cool, wet conditions",
+    "prevention": "Plant disease-resistant varieties. Avoid overhead watering. Ensure good air circulation. Monitor weather conditions.",
+    "treatment": "Remove and destroy all infected plants immediately. Apply fungicides containing mefenoxam or chlorothalonil. Do not compost infected material."
+  },
+  {
+    "plantName": "Tomato",
+    "diseaseName": "Septoria Leaf Spot",
+    "symptoms": "Small, circular spots with dark borders and light centers on leaves. Can cause defoliation",
+    "prevention": "Use disease-free seeds. Rotate crops. Avoid working with wet plants. Remove plant debris at season end.",
+    "treatment": "Remove infected leaves. Apply fungicides containing chlorothalonil or copper. Improve air circulation around plants."
+  },
+  {
+    "plantName": "Tomato",
+    "diseaseName": "Bacterial Spot",
+    "symptoms": "Small, dark, water-soaked spots on leaves, stems, and fruits with yellow halos. Causes leaf drop",
+    "prevention": "Use disease-free seeds and transplants. Rotate crops. Avoid working with wet plants. Sanitize tools between uses.",
+    "treatment": "Remove infected plant parts. Apply copper-based bactericides. Avoid overhead irrigation."
+  },
+  {
+    "plantName": "Tomato",
+    "diseaseName": "Fusarium Wilt",
+    "symptoms": "Yellowing and wilting of lower leaves, brown discoloration in vascular tissue, plant death",
+    "prevention": "Use resistant varieties. Rotate crops with non-host plants. Avoid planting in infected soil.",
+    "treatment": "Remove and destroy infected plants. Solarize soil. Use biological control agents like Trichoderma."
+  },
+  {
+    "plantName": "Tomato",
+    "diseaseName": "Verticillium Wilt",
+    "symptoms": "Yellowing leaves starting from bottom, wilting during day, brown vascular discoloration",
+    "prevention": "Plant resistant varieties. Rotate with non-susceptible crops. Maintain soil pH around 6.5.",
+    "treatment": "Remove infected plants. Solarize soil. Use resistant rootstocks for grafting."
+  },
+  {
+    "plantName": "Tomato",
+    "diseaseName": "Tomato Mosaic Virus",
+    "symptoms": "Mottled light and dark green patterns on leaves, leaf distortion, stunted growth",
+    "prevention": "Use virus-free seeds. Control aphids and whiteflies. Disinfect tools. Remove weeds.",
+    "treatment": "Remove and destroy infected plants. No chemical treatment available. Use resistant varieties."
+  },
+  {
+    "plantName": "Potato",
+    "diseaseName": "Early Blight",
+    "symptoms": "Dark brown spots with concentric rings on leaves, premature defoliation, reduced tuber yield",
+    "prevention": "Use certified disease-free seed potatoes. Rotate crops. Avoid overhead irrigation. Apply mulch.",
+    "treatment": "Apply fungicides containing chlorothalonil or mancozeb. Remove infected foliage. Ensure proper plant spacing."
+  },
+  {
+    "plantName": "Potato",
+    "diseaseName": "Late Blight",
+    "symptoms": "Water-soaked lesions on leaves and stems, white fungal growth in humid conditions, tuber rot",
+    "prevention": "Plant resistant varieties. Avoid overhead irrigation. Ensure good drainage. Monitor weather.",
+    "treatment": "Apply fungicides containing mancozeb or chlorothalonil. Remove infected plants immediately."
+  },
+  {
+    "plantName": "Potato",
+    "diseaseName": "Potato Scab",
+    "symptoms": "Rough, scabby lesions on potato tubers, corky texture, reduced market value",
+    "prevention": "Maintain soil pH between 5.0-5.2. Use resistant varieties. Rotate crops. Avoid fresh manure.",
+    "treatment": "No effective treatment once infected. Focus on prevention through soil management."
+  },
+  {
+    "plantName": "Potato",
+    "diseaseName": "Blackleg",
+    "symptoms": "Black, slimy rot at base of stem, wilting, yellowing leaves, soft rot in tubers",
+    "prevention": "Use certified seed potatoes. Avoid planting in wet soil. Practice crop rotation.",
+    "treatment": "Remove and destroy infected plants. Apply copper-based fungicides. Improve drainage."
+  },
+  {
+    "plantName": "Wheat",
+    "diseaseName": "Stripe Rust",
+    "symptoms": "Yellow-orange pustules arranged in stripes along wheat leaves, reduced grain yield",
+    "prevention": "Plant rust-resistant varieties. Monitor fields regularly. Apply preventive fungicides. Remove volunteer wheat.",
+    "treatment": "Apply fungicides containing tebuconazole, propiconazole, or azoxystrobin. Early treatment is crucial."
+  },
+  {
+    "plantName": "Wheat",
+    "diseaseName": "Leaf Blight",
+    "symptoms": "Brown, elongated lesions on wheat leaves starting at tips, reduced photosynthesis",
+    "prevention": "Use resistant varieties. Practice crop rotation. Avoid excessive nitrogen. Ensure proper drainage.",
+    "treatment": "Apply fungicides containing propiconazole or tebuconazole. Remove infected plant debris after harvest."
+  },
+  {
+    "plantName": "Wheat",
+    "diseaseName": "Fusarium Head Blight",
+    "symptoms": "Bleached spikelets, pink or orange fungal growth, shriveled grains, reduced yield",
+    "prevention": "Plant resistant varieties. Rotate crops. Avoid planting wheat after corn. Time planting to avoid flowering during wet weather.",
+    "treatment": "Apply fungicides at flowering stage. Use products containing tebuconazole or prothioconazole."
+  },
+  {
+    "plantName": "Wheat",
+    "diseaseName": "Powdery Mildew",
+    "symptoms": "White, powdery fungal growth on leaves and stems, yellowing leaves, reduced photosynthesis",
+    "prevention": "Plant resistant varieties. Ensure proper spacing. Avoid excessive nitrogen. Monitor humidity.",
+    "treatment": "Apply fungicides containing propiconazole or tebuconazole. Remove infected plant parts."
+  },
+  {
+    "plantName": "Rice",
+    "diseaseName": "Leaf Blight",
+    "symptoms": "Brown, elongated lesions on leaves, reduced photosynthesis, grain yield loss",
+    "prevention": "Use resistant varieties. Practice proper water management. Avoid excessive nitrogen. Remove infected debris.",
+    "treatment": "Apply appropriate fungicides or bactericides based on pathogen type. Improve field drainage."
+  },
+  {
+    "plantName": "Rice",
+    "diseaseName": "Rice Blast",
+    "symptoms": "Diamond-shaped lesions on leaves, node rot, empty panicles, significant yield loss",
+    "prevention": "Plant resistant varieties. Avoid excessive nitrogen. Maintain proper water levels. Use balanced fertilization.",
+    "treatment": "Apply fungicides containing tricyclazole, propiconazole, or azoxystrobin. Treat at early stages."
+  },
+  {
+    "plantName": "Rice",
+    "diseaseName": "Sheath Blight",
+    "symptoms": "Oval or irregular lesions on leaf sheaths, white fungal growth, lodging of plants",
+    "prevention": "Use resistant varieties. Maintain proper spacing. Avoid excessive nitrogen. Practice crop rotation.",
+    "treatment": "Apply fungicides containing validamycin or propiconazole. Remove infected plant debris."
+  },
+  {
+    "plantName": "Rice",
+    "diseaseName": "Bacterial Leaf Streak",
+    "symptoms": "Water-soaked streaks on leaves turning brown, yellowing, reduced grain filling",
+    "prevention": "Use disease-free seeds. Avoid overhead irrigation. Practice crop rotation. Remove weeds.",
+    "treatment": "Apply copper-based bactericides. Remove infected plant parts. Improve field drainage."
+  },
+  {
+    "plantName": "Cotton",
+    "diseaseName": "Bacterial Blight",
+    "symptoms": "Angular, water-soaked spots on cotton leaves turning brown, defoliation, yield impact",
+    "prevention": "Use resistant varieties. Rotate crops. Use disease-free seeds. Sanitize equipment.",
+    "treatment": "Apply copper-based bactericides. Remove and destroy infected plant parts. Avoid overhead irrigation."
+  },
+  {
+    "plantName": "Cotton",
+    "diseaseName": "Fusarium Wilt",
+    "symptoms": "Yellowing and wilting of leaves, brown vascular discoloration, plant death",
+    "prevention": "Plant resistant varieties. Rotate crops. Avoid planting in infected soil. Improve drainage.",
+    "treatment": "Remove infected plants. Solarize soil. Use biological control agents."
+  },
+  {
+    "plantName": "Cotton",
+    "diseaseName": "Verticillium Wilt",
+    "symptoms": "Yellowing leaves, wilting, brown vascular tissue, reduced yield",
+    "prevention": "Use resistant varieties. Rotate with non-host crops. Maintain proper soil pH.",
+    "treatment": "Remove infected plants. Solarize soil. Use resistant cultivars."
+  },
+  {
+    "plantName": "Rose",
+    "diseaseName": "Black Spot",
+    "symptoms": "Circular black spots with fringed edges on leaves, yellowing, leaf drop",
+    "prevention": "Plant resistant varieties. Water at base, not on leaves. Ensure good air circulation. Remove fallen leaves.",
+    "treatment": "Remove infected leaves. Apply fungicides containing chlorothalonil, myclobutanil, or neem oil."
+  },
+  {
+    "plantName": "Rose",
+    "diseaseName": "Powdery Mildew",
+    "symptoms": "White, powdery spots on leaves, stems, and buds, distorted growth",
+    "prevention": "Plant resistant varieties. Ensure proper spacing. Water at base. Prune for air flow.",
+    "treatment": "Remove infected parts. Apply fungicides containing sulfur, neem oil, or potassium bicarbonate."
+  },
+  {
+    "plantName": "Rose",
+    "diseaseName": "Rust",
+    "symptoms": "Orange or reddish pustules on undersides of leaves, yellow spots on upper surface",
+    "prevention": "Plant resistant varieties. Ensure good air circulation. Remove infected leaves. Avoid overhead watering.",
+    "treatment": "Remove infected leaves. Apply fungicides containing myclobutanil or propiconazole."
+  },
+  {
+    "plantName": "Chili",
+    "diseaseName": "Anthracnose",
+    "symptoms": "Sunken, dark spots on fruits and leaves, fruit rot, significant yield loss in humid conditions",
+    "prevention": "Use disease-free seeds. Rotate crops. Avoid overhead watering. Ensure proper spacing.",
+    "treatment": "Remove infected fruits and leaves. Apply fungicides containing chlorothalonil or azoxystrobin."
+  },
+  {
+    "plantName": "Chili",
+    "diseaseName": "Bacterial Leaf Spot",
+    "symptoms": "Small, water-soaked spots on leaves turning brown, leaf drop, reduced yield",
+    "prevention": "Use disease-free seeds. Rotate crops. Avoid working with wet plants. Sanitize tools.",
+    "treatment": "Apply copper-based bactericides. Remove infected plant parts. Avoid overhead irrigation."
+  },
+  {
+    "plantName": "Chili",
+    "diseaseName": "Phytophthora Blight",
+    "symptoms": "Dark, water-soaked lesions on stems, wilting, fruit rot, plant collapse",
+    "prevention": "Use resistant varieties. Improve drainage. Avoid overhead irrigation. Practice crop rotation.",
+    "treatment": "Remove infected plants. Apply fungicides containing mefenoxam or metalaxyl. Improve drainage."
+  },
+  {
+    "plantName": "Corn",
+    "diseaseName": "Northern Corn Leaf Blight",
+    "symptoms": "Long, elliptical gray-green lesions on leaves, reduced photosynthesis, yield loss",
+    "prevention": "Plant resistant hybrids. Rotate crops. Remove crop residue. Use balanced fertilization.",
+    "treatment": "Apply fungicides containing propiconazole or azoxystrobin. Treat at early stages."
+  },
+  {
+    "plantName": "Corn",
+    "diseaseName": "Common Rust",
+    "symptoms": "Reddish-brown pustules on leaves, yellowing, reduced grain fill",
+    "prevention": "Plant resistant hybrids. Rotate crops. Remove volunteer corn plants.",
+    "treatment": "Apply fungicides containing propiconazole or tebuconazole if infection is severe."
+  },
+  {
+    "plantName": "Corn",
+    "diseaseName": "Gray Leaf Spot",
+    "symptoms": "Rectangular, tan to gray lesions on leaves, premature death, yield reduction",
+    "prevention": "Plant resistant hybrids. Rotate crops. Remove crop residue. Avoid excessive nitrogen.",
+    "treatment": "Apply fungicides containing azoxystrobin or propiconazole. Treat preventively."
+  },
+  {
+    "plantName": "Soybean",
+    "diseaseName": "Soybean Rust",
+    "symptoms": "Small, tan to reddish-brown pustules on leaves, defoliation, yield loss",
+    "prevention": "Plant early-maturing varieties. Monitor fields regularly. Apply preventive fungicides.",
+    "treatment": "Apply fungicides containing azoxystrobin, propiconazole, or tebuconazole. Early treatment is key."
+  },
+  {
+    "plantName": "Soybean",
+    "diseaseName": "Frogeye Leaf Spot",
+    "symptoms": "Circular, tan spots with dark borders on leaves, premature defoliation",
+    "prevention": "Use resistant varieties. Rotate crops. Remove crop residue. Avoid excessive nitrogen.",
+    "treatment": "Apply fungicides containing azoxystrobin or propiconazole if infection is severe."
+  },
+  {
+    "plantName": "Soybean",
+    "diseaseName": "Bacterial Blight",
+    "symptoms": "Angular, water-soaked spots on leaves turning brown, defoliation",
+    "prevention": "Use disease-free seeds. Rotate crops. Avoid working with wet plants. Sanitize equipment.",
+    "treatment": "Apply copper-based bactericides. Remove infected plant parts."
+  },
+  {
+    "plantName": "Cucumber",
+    "diseaseName": "Downy Mildew",
+    "symptoms": "Yellow angular spots on upper leaf surface, gray fuzzy growth on underside, defoliation",
+    "prevention": "Plant resistant varieties. Ensure good air circulation. Avoid overhead watering. Use drip irrigation.",
+    "treatment": "Apply fungicides containing mancozeb, chlorothalonil, or copper-based products."
+  },
+  {
+    "plantName": "Cucumber",
+    "diseaseName": "Powdery Mildew",
+    "symptoms": "White, powdery spots on leaves and stems, yellowing, reduced yield",
+    "prevention": "Plant resistant varieties. Ensure proper spacing. Water at base. Improve air circulation.",
+    "treatment": "Apply fungicides containing sulfur, neem oil, or potassium bicarbonate."
+  },
+  {
+    "plantName": "Cucumber",
+    "diseaseName": "Bacterial Wilt",
+    "symptoms": "Wilting of leaves starting from tips, ooze from cut stems, plant death",
+    "prevention": "Control cucumber beetles. Use resistant varieties. Rotate crops. Remove infected plants.",
+    "treatment": "Remove and destroy infected plants immediately. Control insect vectors."
+  },
+  {
+    "plantName": "Pepper",
+    "diseaseName": "Bacterial Spot",
+    "symptoms": "Small, water-soaked spots on leaves and fruits, leaf drop, fruit lesions",
+    "prevention": "Use disease-free seeds. Rotate crops. Avoid overhead irrigation. Sanitize tools.",
+    "treatment": "Apply copper-based bactericides. Remove infected plant parts."
+  },
+  {
+    "plantName": "Pepper",
+    "diseaseName": "Phytophthora Blight",
+    "symptoms": "Dark lesions on stems, wilting, fruit rot, plant collapse",
+    "prevention": "Use resistant varieties. Improve drainage. Avoid overhead irrigation. Practice rotation.",
+    "treatment": "Remove infected plants. Apply fungicides containing mefenoxam. Improve drainage."
+  },
+  {
+    "plantName": "Pepper",
+    "diseaseName": "Anthracnose",
+    "symptoms": "Sunken, dark spots on fruits, fruit rot, yield loss",
+    "prevention": "Use disease-free seeds. Rotate crops. Avoid overhead watering. Remove crop debris.",
+    "treatment": "Remove infected fruits. Apply fungicides containing chlorothalonil or azoxystrobin."
+  },
+  {
+    "plantName": "Bean",
+    "diseaseName": "Rust",
+    "symptoms": "Reddish-brown pustules on leaves and pods, defoliation, yield reduction",
+    "prevention": "Plant resistant varieties. Rotate crops. Remove crop residue. Avoid overhead irrigation.",
+    "treatment": "Apply fungicides containing propiconazole or tebuconazole if infection is severe."
+  },
+  {
+    "plantName": "Bean",
+    "diseaseName": "Bacterial Blight",
+    "symptoms": "Water-soaked spots on leaves turning brown, angular lesions, defoliation",
+    "prevention": "Use disease-free seeds. Rotate crops. Avoid working with wet plants.",
+    "treatment": "Apply copper-based bactericides. Remove infected plant parts."
+  },
+  {
+    "plantName": "Bean",
+    "diseaseName": "Anthracnose",
+    "symptoms": "Dark, sunken lesions on pods and leaves, seed discoloration",
+    "prevention": "Use disease-free seeds. Rotate crops. Avoid overhead irrigation. Remove crop debris.",
+    "treatment": "Apply fungicides containing chlorothalonil or azoxystrobin."
+  },
+  {
+    "plantName": "Cabbage",
+    "diseaseName": "Black Rot",
+    "symptoms": "Yellow V-shaped lesions on leaf margins, black veins, wilting",
+    "prevention": "Use disease-free seeds. Rotate crops. Avoid overhead irrigation. Remove crop debris.",
+    "treatment": "Remove infected plants. Apply copper-based bactericides. Practice crop rotation."
+  },
+  {
+    "plantName": "Cabbage",
+    "diseaseName": "Clubroot",
+    "symptoms": "Swollen, distorted roots, stunted growth, wilting, plant death",
+    "prevention": "Use resistant varieties. Maintain soil pH above 7.0. Rotate crops. Improve drainage.",
+    "treatment": "Remove infected plants. Lime soil to raise pH. Use resistant cultivars."
+  },
+  {
+    "plantName": "Cabbage",
+    "diseaseName": "Downy Mildew",
+    "symptoms": "Yellow spots on upper leaves, gray fuzzy growth on underside, defoliation",
+    "prevention": "Plant resistant varieties. Ensure good air circulation. Avoid overhead watering.",
+    "treatment": "Apply fungicides containing mancozeb or chlorothalonil."
+  },
+  {
+    "plantName": "Carrot",
+    "diseaseName": "Alternaria Leaf Blight",
+    "symptoms": "Brown spots on leaves with yellow halos, defoliation, reduced root quality",
+    "prevention": "Use disease-free seeds. Rotate crops. Avoid overhead irrigation. Remove crop debris.",
+    "treatment": "Apply fungicides containing chlorothalonil or mancozeb."
+  },
+  {
+    "plantName": "Carrot",
+    "diseaseName": "Bacterial Soft Rot",
+    "symptoms": "Soft, watery rot on roots, foul odor, plant collapse",
+    "prevention": "Improve drainage. Avoid overwatering. Practice crop rotation. Handle roots carefully.",
+    "treatment": "Remove infected plants. Improve soil drainage. Use proper storage conditions."
+  },
+  {
+    "plantName": "Onion",
+    "diseaseName": "Downy Mildew",
+    "symptoms": "Yellow streaks on leaves, gray fuzzy growth, leaf collapse",
+    "prevention": "Plant resistant varieties. Ensure good air circulation. Avoid overhead irrigation.",
+    "treatment": "Apply fungicides containing mancozeb or chlorothalonil."
+  },
+  {
+    "plantName": "Onion",
+    "diseaseName": "Purple Blotch",
+    "symptoms": "Purple lesions on leaves with yellow halos, leaf dieback, bulb rot",
+    "prevention": "Use disease-free sets. Rotate crops. Avoid overhead irrigation. Remove crop debris.",
+    "treatment": "Apply fungicides containing chlorothalonil or mancozeb."
+  },
+  {
+    "plantName": "Onion",
+    "diseaseName": "White Rot",
+    "symptoms": "Yellowing leaves, white fluffy growth on bulbs, soft rot, plant death",
+    "prevention": "Use disease-free sets. Rotate crops for 4-5 years. Improve drainage.",
+    "treatment": "Remove infected plants. Solarize soil. Use fungicidal treatments."
+  },
+  {
+    "plantName": "General",
+    "diseaseName": "Powdery Mildew",
+    "symptoms": "White or gray powdery spots on leaves, stems, and sometimes flowers. Thrives in humid conditions with poor air circulation.",
+    "prevention": "Plant resistant varieties. Ensure proper spacing. Water at the base of plants. Prune to improve air flow. Avoid overhead watering.",
+    "treatment": "Remove infected plant parts. Apply fungicides containing sulfur, neem oil, or potassium bicarbonate. Improve air circulation."
+  },
+  {
+    "plantName": "General",
+    "diseaseName": "Root Rot",
+    "symptoms": "Roots become brown, mushy, and decayed. Plants may wilt, have stunted growth, and eventually die. Often caused by overwatering or poor drainage.",
+    "prevention": "Ensure proper drainage. Avoid overwatering. Use well-draining soil. Rotate crops. Remove plant debris.",
+    "treatment": "Remove affected plants. Improve soil drainage. Apply fungicides containing thiophanate-methyl or azoxystrobin. Reduce watering."
+  },
+  {
+    "plantName": "General",
+    "diseaseName": "Leaf Miner",
+    "symptoms": "Winding, white or brown trails (mines) on leaves as larvae feed between leaf layers. Reduces photosynthesis and can cause leaf drop.",
+    "prevention": "Use floating row covers. Monitor plants regularly. Remove affected leaves early. Encourage beneficial insects. Practice crop rotation.",
+    "treatment": "Remove and destroy infested leaves. Apply insecticides containing spinosad or neem oil. Introduce beneficial insects like parasitic wasps."
+  }
+]
+

@@ -1,0 +1,306 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22c55e;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #16a34a;
+}
+
+
+
+/* Add these styles to your global CSS or a home-specific CSS file */
+
+/* 1. Enhanced Hero Section */
+.bg-gradient-to-br {
+  background: linear-gradient(135deg, 
+    #059669 0%, 
+    #047857 25%, 
+    #065f46 50%, 
+    #064e3b 100%
+  );
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-gradient-to-br::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(255,255,255,0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255,255,255,0.05) 0%, transparent 50%);
+}
+
+.hero-emoji-container {
+  position: relative;
+  animation: float 6s ease-in-out infinite;
+}
+
+.hero-emoji-container .text-9xl {
+  animation: pulse 2s ease-in-out infinite;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+}
+
+.hero-emoji-container .text-8xl {
+  animation: pulse 2s ease-in-out infinite 1s;
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.2));
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
+/* 2. Enhanced Features Cards */
+.feature-card {
+  background: linear-gradient(145deg, #ffffff, #f8fafc);
+  border: 1px solid #e2e8f0;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #059669, #10b981);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover::before {
+  transform: scaleX(1);
+}
+
+.feature-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 
+    0 20px 40px rgba(5, 150, 105, 0.1),
+    0 10px 20px rgba(5, 150, 105, 0.05),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  border-color: #10b981;
+}
+
+.feature-card .text-5xl {
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover .text-5xl {
+  transform: scale(1.2);
+}
+
+/* 3. Enhanced How It Works Section */
+.how-it-works-step {
+  background: linear-gradient(135deg, #ffffff 0%, #fefefe 100%);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  position: relative;
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+}
+
+.how-it-works-step::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -1.5rem;
+  transform: translateY(-50%);
+  width: 3rem;
+  height: 2px;
+  background: #cbd5e1;
+}
+
+@media (max-width: 768px) {
+  .how-it-works-step::after {
+    display: none;
+  }
+}
+
+.how-it-works-step:hover {
+  transform: translateY(-5px);
+  box-shadow: 
+    0 15px 30px rgba(0, 0, 0, 0.08),
+    0 5px 15px rgba(0, 0, 0, 0.03);
+  border-color: #10b981;
+}
+
+.how-it-works-step .text-5xl {
+  background: linear-gradient(135deg, #10b981, #059669);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+/* 4. Responsive Improvements */
+@media (max-width: 640px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  
+  .hero-content p {
+    font-size: 1.125rem;
+  }
+  
+  .feature-card,
+  .how-it-works-step {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-cols-1 {
+    gap: 1.5rem;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .hero-buttons a {
+    width: 100%;
+  }
+}
+
+/* 5. Button Enhancements */
+.hero-button-primary {
+  background: linear-gradient(135deg, #ffffff, #f8fafc);
+  color: #059003;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+  box-shadow: 
+    0 4px 6px rgba(5, 150, 105, 0.1),
+    0 1px 3px rgba(5, 150, 105, 0.08);
+}
+
+.hero-button-primary:hover {
+  background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+  transform: translateY(-2px);
+  box-shadow: 
+    0 10px 20px rgba(5, 150, 105, 0.15),
+    0 4px 6px rgba(5, 150, 105, 0.1);
+}
+
+.hero-button-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.hero-button-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 6. Text Enhancements */
+.text-primary-100 {
+  opacity: 0.9;
+}
+
+/* 7. Section Spacing */
+section {
+  scroll-margin-top: 2rem;
+}
+
+/* 8. Loading State Enhancement */
+.loading-shimmer {
+  background: linear-gradient(
+    90deg,
+    #f0f0f0 25%,
+    #e0e0e0 50%,
+    #f0f0f0 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* 9. Container Max Width Enhancement */
+.max-w-7xl {
+  max-width: 90rem;
+}
+
+/* 10. Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 11. Enhanced Typography */
+h1, h2, h3 {
+  font-feature-settings: "ss01", "ss02", "cv01", "cv02";
+  letter-spacing: -0.025em;
+}
+
+/* 12. Grid Gap Responsive */
+@media (max-width: 768px) {
+  .gap-8 {
+    gap: 1.5rem;
+  }
+  
+  .gap-12 {
+    gap: 2rem;
+  }
+}

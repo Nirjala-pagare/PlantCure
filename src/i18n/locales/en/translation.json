@@ -1,0 +1,376 @@
+{
+  "common": {
+    "appName": "PlantCare",
+    "tagline": "Your trusted companion for plant disease diagnosis and care.",
+    "systemDescription": "A rule-based plant disease diagnosis system built with React and Tailwind CSS.",
+    "home": "Home",
+    "diagnose": "Diagnose",
+    "diseaseLibrary": "Disease Library",
+    "about": "About",
+    "contact": "Contact",
+    "startDiagnosis": "Start Diagnosis",
+    "viewDiseaseLibrary": "View Disease Library",
+    "browseLibrary": "Browse Disease Library",
+    "learnMore": "Learn More",
+    "viewDetails": "View Details",
+    "plant": "Plant",
+    "plantLabel": "Plant:",
+    "severity": "Severity",
+    "description": "Description",
+    "prevention": "Prevention",
+    "treatment": "Treatment & Cure",
+    "recommendedProducts": "Recommended Products",
+    "yourPlantImage": "Your Plant Image",
+    "diseaseReference": "Disease Reference",
+    "madeBy": "Made with ❤️ by Nirjala",
+    "allRightsReserved": "© {{year}} PlantCare. All rights reserved.",
+    "selectPlaceholder": "Select {{label}}",
+    "imagePreview": "Image Preview:",
+    "diagnosing": "Diagnosing...",
+    "diagnoseAction": "Diagnose",
+    "tryAgain": "Try Again",
+    "backToHome": "Back to Home",
+    "startNewDiagnosis": "Start New Diagnosis",
+    "noData": "No diagnosis data available.",
+    "optional": "Optional",
+    "email": "contact@plantcare.com"
+  },
+  "languageSelector": {
+    "label": "Language",
+    "ariaLabel": "Select language",
+    "english": "English",
+    "hindi": "Hindi",
+    "marathi": "Marathi"
+  },
+  "navbar": {
+    "toggleMenu": "Toggle menu"
+  },
+  "footer": {
+    "usefulLinks": "Useful Links",
+    "aboutHeading": "About",
+    "contactLabel": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Plant Disease Diagnosis System",
+      "description": "Diagnose plant diseases instantly using symptom-based rule analysis",
+      "primaryCta": "Start Diagnosis",
+      "secondaryCta": "View Disease Library"
+    },
+    "features": {
+      "diagnose": {
+        "title": "Diagnose Disease",
+        "description": "Select symptoms and get an instant disease prediction.",
+        "button": "Start Diagnosis"
+      },
+      "library": {
+        "title": "Disease Library",
+        "description": "Explore diseases, symptoms, images, and treatment info.",
+        "button": "Browse Library"
+      },
+      "ruleEngine": {
+  "title": "Plant Health Companion",
+  "description": "Accurate guidance to help you identify and understand plant issues.",
+  "button": "Learn More"
+  }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "steps": {
+        "selectPlant": {
+          "title": "Select Plant Type",
+          "description": "Tomato, Wheat, Rice, Cotton, Rose, etc."
+        },
+        "enterSymptoms": {
+          "title": "Enter Symptoms",
+          "description": "Spots, color, leaf curling, powdery texture, holes"
+        },
+        "ruleMatches": {
+          "title": "System Matches",
+          "description": "The system matches your symptoms with possible diseases."
+        },
+        "getDiagnosis": {
+          "title": "Get Diagnosis",
+          "description": "Diagnosis + causes + cure + prevention"
+        }
+      }
+    }
+    
+  },
+  "diagnose": {
+    "title": "Plant Disease Diagnosis",
+    "subtitle": "Please provide information about your plant's symptoms to get an accurate diagnosis.",
+    "sections": {
+      "plantInfo": "Plant Information",
+      "symptoms": "Symptoms",
+      "imageUpload": "Image Upload (Optional)"
+    },
+    "fields": {
+      "plantType": "Plant Type",
+      "customPlantName": "Custom Plant Name",
+      "leafColor": "Leaf Color",
+      "spotsQuestion": "Are there spots present on the leaves?",
+      "spotColor": "Spot Color",
+      "leafEdges": "Are the leaf edges curled?",
+      "powdery": "Is there a powdery substance on the leaves?",
+      "holes": "Are there holes in the leaves?",
+      "stemDiscoloration": "Is there stem discoloration?",
+      "uploadLabel": "Upload Plant Image",
+      "previewLabel": "Image Preview:"
+    },
+    "options": {
+      "plantTypes": {
+        "tomato": "Tomato",
+        "potato": "Potato",
+        "wheat": "Wheat",
+        "rice": "Rice",
+        "cotton": "Cotton",
+        "rose": "Rose",
+        "chili": "Chili"
+      },
+      "other": "Other (type manually)",
+      "leafColors": {
+        "green": "Green",
+        "yellow": "Yellow",
+        "brown": "Brown",
+        "black": "Black"
+      },
+      "spotColors": {
+        "yellow": "Yellow",
+        "brown": "Brown",
+        "black": "Black",
+        "white": "White",
+        "gray": "Gray"
+      },
+      "yes": "Yes",
+      "no": "No"
+    },
+    "errors": {
+      "plantType": "Please select a plant type",
+      "customPlantName": "Please enter the plant name",
+      "leafColor": "Please select leaf color",
+      "spotsPresent": "Please answer if spots are present",
+      "spotColor": "Please select spot color",
+      "leafEdgesCurled": "Please answer if leaf edges are curled",
+      "powderySubstance": "Please answer if powdery substance is present",
+      "holesInLeaves": "Please answer if there are holes in leaves",
+      "stemDiscoloration": "Please answer if stem discoloration is present"
+    },
+    "button": "Diagnose",
+    "loading": "Diagnosing..."
+  },
+  "result": {
+    "noMatch": {
+      "title": "No Disease Found",
+      "description": "We couldn't find a matching disease based on the symptoms you provided.",
+      "helper": "Maybe the symptoms are incomplete or rare. Try adding more details or consult with a plant expert."
+    },
+    "empty": {
+      "description": "No diagnosis data available.",
+      "button": "Start New Diagnosis"
+    },
+    "detail": {
+      "description": "Description",
+      "prevention": "Prevention",
+      "treatment": "Treatment & Cure",
+      "recommendedProducts": "Recommended Products"
+    },
+    "buttons": {
+      "tryAgain": "Try Again",
+      "browseLibrary": "Browse Disease Library",
+      "backHome": "Back to Home"
+    }
+  },
+  "library": {
+    "title": "Disease Library",
+    "subtitle": "Browse our comprehensive database of plant diseases and their treatments",
+    "searchLabel": "Search Diseases",
+    "searchPlaceholder": "Search by name or description...",
+    "filterLabel": "Filter by Plant Type",
+    "plantTypes": {
+      "all": "All",
+      "tomato": "Tomato",
+      "potato": "Potato",
+      "wheat": "Wheat",
+      "rice": "Rice",
+      "cotton": "Cotton",
+      "rose": "Rose",
+      "chili": "Chili",
+      "general": "General"
+    },
+    "resultsCount_one": "Found <strong>{{count}}</strong> disease",
+    "resultsCount_other": "Found <strong>{{count}}</strong> diseases",
+    "emptyTitle": "No Diseases Found",
+    "emptyDescription": "Try adjusting your search or filter criteria",
+    "back": "Back to Library"
+  },
+  "about": {
+  "title": "About PlantCure – Plant Disease Diagnosis System",
+  "sections": {
+
+    "system": {
+      "title": "What is PlantCure?",
+      "paragraph1": "PlantCure is a modern web application designed to help farmers, gardeners, and plant enthusiasts easily identify plant diseases by selecting or entering visible symptoms. Instead of rule-based matching, PlantCure now stores all disease information in a structured MongoDB database.",
+      "paragraph2": "When symptoms are entered, the system searches through the database and retrieves the most relevant disease along with symptoms, causes, and treatment steps, making diagnosis fast, accurate, and user-friendly."
+    },
+
+    "matching": {
+      "title": "How Symptoms are Processed",
+      "intro": "When you enter symptoms about your plant, the system follows these steps:",
+      "steps": {
+        "input": "<strong>Input Collection:</strong> You provide information such as leaf spots, discoloration, curling, powdery texture, holes, or stem issues.",
+        "search": "<strong>Database Search:</strong> The system searches the MongoDB disease collection to find entries matching the provided symptoms.",
+        "selection": "<strong>Disease Selection:</strong> When multiple diseases match, the system selects the most relevant and specific result.",
+        "result": "<strong>Result Generation:</strong> The selected disease details are displayed with description, symptoms, prevention, and treatment."
+      }
+    },
+
+    "impact": {
+      "title": "Why This Project Solves Real-World Problems",
+      "cards": {
+        "accessibility": {
+          "title": "Accessibility",
+          "description": "Users can diagnose plant diseases instantly without expert help or costly testing. This is extremely useful in rural or remote regions."
+        },
+        "speed": {
+          "title": "Speed",
+          "description": "The system quickly retrieves accurate disease information, helping users take action before the disease spreads."
+        },
+        "accuracy": {
+          "title": "Reliable Information",
+          "description": "All disease data is stored and managed in MongoDB, ensuring clean structure, accuracy, and easy updates."
+        },
+        "education": {
+          "title": "Educational Value",
+          "description": "The platform includes a complete disease library, helping users learn about plant issues, symptoms, causes, and treatments."
+        }
+      }
+    },
+
+    "technical": {
+      "title": "Technical Details",
+      "intro": "PlantCure is developed using modern full-stack technologies:",
+      "items": [
+        "React JS – Modular and interactive UI",
+        "Tailwind CSS – Modern and responsive styling",
+        "React Router – Smooth navigation between pages",
+        "Vite – Ultra-fast development environment",
+        "Node.js & Express.js – Backend API for symptoms and disease data",
+        "MongoDB – Database storing all disease information"
+      ]
+    },
+
+    "contact": {
+      "madeWith": "Made by <strong>Nirjala-Pagare</strong>",
+      "note": "This project is created to help users diagnose plant diseases quickly using a clean and organized MongoDB database."
+    }
+  }
+},
+
+  
+  "inputField": {
+    "selectPlaceholder": "Select {{label}}"
+  },
+  "plants": {
+    "Tomato": "Tomato",
+    "Potato": "Potato",
+    "Wheat": "Wheat",
+    "Rice": "Rice",
+    "Cotton": "Cotton",
+    "Rose": "Rose",
+    "Chili": "Chili",
+    "General": "General"
+  },
+  "severityLevels": {
+    "High": "High",
+    "Moderate": "Moderate",
+    "Low": "Low"
+  },
+  "diseases": {
+    "tomatoEarlyBlight": {
+      "name": "Early Blight",
+      "description": "Early blight is a common fungal disease that affects tomato plants. It typically appears as brown spots with concentric rings on older leaves, causing them to yellow and die.",
+      "prevention": "Use disease-resistant varieties. Rotate crops annually. Water at the base of plants, avoiding wetting leaves. Apply mulch to prevent soil splash.",
+      "cure": "Remove infected leaves immediately. Apply fungicides containing chlorothalonil or mancozeb. Ensure proper spacing between plants for air circulation."
+    },
+    "tomatoLateBlight": {
+      "name": "Late Blight",
+      "description": "Late blight is a devastating fungal disease that can destroy entire tomato crops. It causes dark, water-soaked lesions on leaves, stems, and fruits.",
+      "prevention": "Plant disease-resistant varieties. Avoid overhead watering. Ensure good air circulation. Monitor cool, wet weather that favors disease.",
+      "cure": "Remove and destroy all infected plants immediately. Apply fungicides containing mefenoxam or chlorothalonil. Do not compost infected material."
+    },
+    "tomatoSeptoria": {
+      "name": "Septoria Leaf Spot",
+      "description": "Septoria leaf spot causes small, circular spots with dark borders and light centers on tomato leaves. It can defoliate plants if left untreated.",
+      "prevention": "Use disease-free seeds. Rotate crops. Avoid working with wet plants. Remove plant debris at the end of the season.",
+      "cure": "Remove infected leaves. Apply fungicides containing chlorothalonil or copper. Improve air circulation around plants."
+    },
+    "tomatoBacterialSpot": {
+      "name": "Bacterial Spot",
+      "description": "Bacterial spot creates small, dark, water-soaked spots on leaves, stems, and fruits. The spots may have yellow halos and can cause leaf drop.",
+      "prevention": "Use disease-free seeds and transplants. Rotate crops. Avoid working with wet plants. Sanitize tools between uses.",
+      "cure": "Remove infected plant parts. Apply copper-based bactericides. Avoid overhead irrigation."
+    },
+    "wheatStripeRust": {
+      "name": "Stripe Rust",
+      "description": "Stripe rust appears as yellow-orange pustules arranged in stripes along wheat leaves. Severe infections can drastically reduce grain yield.",
+      "prevention": "Plant rust-resistant varieties. Monitor fields regularly. Apply preventive fungicides during favorable conditions. Remove volunteer wheat plants.",
+      "cure": "Apply fungicides containing tebuconazole, propiconazole, or azoxystrobin. Treat early for best results."
+    },
+    "wheatLeafBlight": {
+      "name": "Leaf Blight",
+      "description": "Leaf blight causes brown, elongated lesions on wheat leaves, often starting at the tips. It reduces photosynthesis and grain quality.",
+      "prevention": "Use resistant varieties. Practice crop rotation. Avoid excessive nitrogen fertilization. Ensure proper field drainage.",
+      "cure": "Apply fungicides containing propiconazole or tebuconazole. Remove infected plant debris after harvest."
+    },
+    "generalPowderyMildew": {
+      "name": "Powdery Mildew",
+      "description": "Powdery mildew shows up as white or gray powdery spots on leaves, stems, and sometimes flowers. It thrives in humid areas with poor air circulation.",
+      "prevention": "Plant resistant varieties. Ensure proper spacing. Water at the base of plants. Prune to improve airflow and avoid overhead watering.",
+      "cure": "Remove infected plant parts. Apply fungicides containing sulfur, neem oil, or potassium bicarbonate. Improve air circulation."
+    },
+    "generalRootRot": {
+      "name": "Root Rot",
+      "description": "Root rot causes roots to become brown, mushy, and decayed. Plants may wilt, grow slowly, and eventually die, especially in soggy soil.",
+      "prevention": "Ensure proper drainage. Avoid overwatering. Use well-draining soil. Rotate crops and remove plant debris. Avoid planting in waterlogged areas.",
+      "cure": "Remove affected plants. Improve soil drainage. Treat remaining plants with fungicides containing thiophanate-methyl or azoxystrobin and reduce watering."
+    },
+    "generalLeafMiner": {
+      "name": "Leaf Miner",
+      "description": "Leaf miners create winding, white or brown trails on leaves as larvae feed between leaf layers. This damage reduces photosynthesis and can cause leaf drop.",
+      "prevention": "Use floating row covers. Monitor plants regularly. Remove affected leaves early. Encourage beneficial insects and practice crop rotation.",
+      "cure": "Remove and destroy infested leaves. Apply insecticides containing spinosad or neem oil. Release beneficial insects like parasitic wasps."
+    },
+    "potatoEarlyBlight": {
+      "name": "Potato Early Blight",
+      "description": "Early blight on potatoes causes dark brown spots with concentric rings on leaves, leading to premature defoliation and reduced tuber yield.",
+      "prevention": "Use certified disease-free seed potatoes. Rotate crops. Avoid overhead irrigation. Apply mulch to prevent soil splash.",
+      "cure": "Apply fungicides containing chlorothalonil or mancozeb. Remove infected foliage and ensure proper plant spacing."
+    },
+    "riceLeafBlight": {
+      "name": "Rice Leaf Blight",
+      "description": "Rice leaf blight creates brown, elongated lesions on leaves, reducing photosynthesis and grain yield. It is commonly caused by bacterial or fungal pathogens.",
+      "prevention": "Use resistant varieties. Practice proper water management. Avoid excessive nitrogen. Remove infected plant debris.",
+      "cure": "Apply appropriate fungicides or bactericides based on the pathogen. Remove infected material and improve field drainage."
+    },
+    "cottonBacterialBlight": {
+      "name": "Cotton Bacterial Blight",
+      "description": "Bacterial blight causes angular, water-soaked spots on cotton leaves that turn brown and may lead to defoliation, reducing yield.",
+      "prevention": "Use resistant varieties. Rotate crops. Plant disease-free seeds. Sanitize equipment and avoid working with wet plants.",
+      "cure": "Apply copper-based bactericides. Remove and destroy infected plant parts. Avoid overhead irrigation."
+    },
+    "roseBlackSpot": {
+      "name": "Rose Black Spot",
+      "description": "Black spot is a common fungal disease of roses, causing circular black spots with fringed edges on leaves, which then yellow and drop.",
+      "prevention": "Plant resistant varieties. Water at the base, not on leaves. Ensure good air circulation, remove fallen leaves, and prune regularly.",
+      "cure": "Remove infected leaves. Apply fungicides containing chlorothalonil, myclobutanil, or neem oil. Improve air circulation."
+    },
+    "chiliAnthracnose": {
+      "name": "Chili Anthracnose",
+      "description": "Anthracnose causes sunken, dark spots on chili fruits and leaves. It leads to fruit rot and major yield loss, especially in humid weather.",
+      "prevention": "Use disease-free seeds. Rotate crops. Avoid overhead watering. Ensure proper spacing and remove debris after harvest.",
+      "cure": "Remove infected fruits and leaves. Apply fungicides containing chlorothalonil or azoxystrobin. Improve air circulation."
+    }
+  }
+}
+
