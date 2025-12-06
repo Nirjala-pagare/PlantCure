@@ -1,6 +1,7 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL 
-  ? `${import.meta.env.VITE_API_URL}/api`
-  : 'https://plantcure-2vtx.onrender.com';
+const API_BASE_URL = import.meta.env.VITE_API_URL
+  ? import.meta.env.VITE_API_URL
+  : "https://plantcure-2vtx.onrender.com/api";
+
 
 // Fetch all diseases from MongoDB
 export const fetchAllDiseases = async () => {
