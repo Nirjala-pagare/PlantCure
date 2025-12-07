@@ -1,104 +1,128 @@
-# Plant Disease Diagnosis System
+# 🌿 PlantCure – Smart Plant Disease Diagnosis System
+An intelligent and user‑friendly platform designed to help farmers, gardeners, and agriculture enthusiasts quickly identify plant diseases using symptom‑based diagnosis.
 
-A professional, rule-based plant disease diagnosis system built with React and Tailwind CSS. This application helps users identify plant diseases by matching symptoms against a comprehensive rule database.
+---
 
-## 🌱 Features
+## 🚀 Overview
+**PlantCure** simplifies plant health monitoring by allowing users to select visible symptoms and instantly receive accurate disease predictions. Built with a clean and responsive interface, it empowers farmers to protect their crops early and reduce losses. PlantCure is more than a tool — it's support for the people who feed the world.
 
-- **Rule-Based Diagnosis**: No AI/ML required - uses logical rule matching
-- **Comprehensive Disease Database**: Covers multiple plant types (Tomato, Potato, Wheat, Rice, Cotton, Rose, Chili)
-- **Interactive Diagnosis Form**: Step-by-step symptom input
-- **Disease Library**: Browse and search through all available diseases
-- **Detailed Results**: Get prevention tips, treatment methods, and recommended products
-- **Image Upload**: Upload plant images for reference (preview only)
-- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
-- **Modern UI**: Clean, professional design with Tailwind CSS
+---
 
-## 🚀 Getting Started
+## 🌟 Key Features
+- 🌱 **Smart Disease Diagnosis** – Identify plant diseases through symptom matching.
+- 🌍 **Language Selection Feature** – Users can switch between multiple languages for easier understanding and accessibility.
+- 📚 **Disease Library** – View detailed disease information, symptoms, treatment & prevention.
+- 📤 **Image Upload Support** – Add disease entries with images (admin feature).
+- ⚙️ **Robust Backend API** – Built with Express JS and MongoDB using MVC architecture.
+- 🎨 **Modern Frontend UI** – React + Tailwind CSS for a clean and smooth user experience.
+- 🔄 **Seamless Deployment** – Frontend on Vercel, backend on Render.
 
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone or download this repository
-2. Navigate to the project directory:
-   ```bash
-   cd Plant_Disease
-   ```
-
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-   ```bash
-   npm start
-   ```
-   or
-   ```bash
-   npm run dev
-   ```
-
-5. Open your browser and navigate to `http://localhost:5173`
-
-## 📁 Project Structure
-
-```
-src/
-  components/
-    Navbar.jsx          # Navigation component
-    Footer.jsx          # Footer component
-    InputField.jsx      # Reusable input component
-    DiseaseCard.jsx     # Disease card component
-  pages/
-    Home.jsx            # Home page
-    Diagnose.jsx        # Diagnosis form page
-    Result.jsx          # Diagnosis result page
-    About.jsx           # About page
-    DiseaseLibrary.jsx # Disease library page
-  data/
-    rules.js           # Rule definitions
-    diseases.js        # Disease database
-  utils/
-    ruleEngine.js      # Rule matching engine
-  assets/
-    sample/            # Sample images (optional)
-```
+---
 
 ## 🛠️ Tech Stack
+### **Frontend**
+- React JS
+- Tailwind CSS
+- Vite
 
-- **React** - UI framework
-- **React Router** - Client-side routing
-- **Tailwind CSS** - Utility-first CSS framework
-- **Vite** - Build tool and dev server
+### **Backend**
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose
+- Multer (image handling)
+- dotenv & CORS
 
-## 📝 How It Works
+---
 
-1. **User Input**: User selects plant type and answers symptom questions
-2. **Rule Matching**: System matches symptoms against predefined rules
-3. **Priority Scoring**: Highest priority match is selected
-4. **Result Display**: Disease information with treatment recommendations
+## 📁 Project Structure (Backend)
+```
+backend/
+│── controllers/
+│── models/
+│── routes/
+│── config/
+│── uploads/
+└── server.js
+```
 
-## 🎯 Available Scripts
+---
 
-- `npm start` or `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
+## 🔧 Setup Instructions
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/yourusername/PlantCure.git
+cd PlantCure
+```
 
-## 📄 License
+### 2️⃣ Backend Setup
+```bash
+cd backend
+npm install
+```
 
-This project is created for educational purposes.
+Create `.env` file:
+```
+MONGODB_URI=your_mongo_uri
+PORT=5000
+FRONTEND_URL=https://your-frontend-url.vercel.app
+```
 
-## 👤 Author
+Start backend:
+```bash
+npm start
+```
 
-Made with ❤️ by Nirjala
+### 3️⃣ Frontend Setup
+```bash
+cd frontend
+npm install
+```
 
-## 🙏 Acknowledgments
+Create `.env` file:
+```
+VITE_API_URL=https://your-backend.onrender.com/api
+```
 
-- Plant disease information based on agricultural research
-- Images from Unsplash
-- Built with modern web technologies
+Start frontend:
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Deployment
+### **Backend (Render)**
+- Build command: `npm install`
+- Start command: `npm start`
+- Add environment variables:
+  - `MONGODB_URI`
+  - `FRONTEND_URL`
+
+### **Frontend (Vercel)**
+- Add env variable: `VITE_API_URL`
+- Build command: `npm run build`
+
+---
+
+## 🔗 API Endpoints
+### **Disease Routes**
+```
+GET  /api/disease/all
+GET  /api/disease/:id
+POST /api/disease/add
+GET  /api/disease/search?q=
+```
+
+### **Diagnosis Route**
+```
+POST /api/diagnosis/check
+```
+
+---
+
+
+## 👩‍💻 Author
+**Nirjala Pagare**
+- GitHub: https://github.com/Nirjala-pagare
 
