@@ -2,7 +2,10 @@
 An intelligent and user‑friendly platform designed to help farmers, gardeners, and agriculture enthusiasts quickly identify plant diseases using symptom‑based diagnosis.
 
 ---
+## 🚀 Demo
+🔗 **Live Demo:** https://plant-cure.vercel.app/
 
+---
 ## 🚀 Overview
 **PlantCure** simplifies plant health monitoring by allowing users to select visible symptoms and instantly receive accurate disease predictions. Built with a clean and responsive interface, it empowers farmers to protect their crops early and reduce losses. PlantCure is more than a tool — it's support for the people who feed the world.
 
